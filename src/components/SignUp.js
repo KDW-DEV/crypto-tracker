@@ -71,7 +71,7 @@ const SignUp = ({ setSignUp, signUp }) => {
             />
           </FormGroup>
         </Col>
-        <Button>Sign Up</Button>
+        <Button style={{ marginRight: "8%" }}>Sign Up</Button>
         <Button
           onClick={(e) => {
             setSignUp(!signUp);

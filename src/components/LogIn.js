@@ -54,7 +54,7 @@ const LogIn = ({ setUser, setSignUp, signUp }) => {
             />
           </FormGroup>
         </Col>
-        <Button>Log In</Button>
+        <Button style={{ marginRight: "8%" }}>Log In</Button>
         <Button
           onClick={(e) => {
             setSignUp(!signUp);
