@@ -9,6 +9,7 @@ import {
   Label,
   Input,
   Button,
+  FormText,
 } from "reactstrap";
 
 const root = document.querySelector("#root");
@@ -62,6 +63,19 @@ const LogIn = ({ setUser, setSignUp, signUp }) => {
         >
           Create an Account
         </Button>
+
+        <Button
+          onClick={(e) => {
+            setUser({ id: "guest", name: "guest" });
+          }}
+          style={{ marginLeft: "8%" }}
+        >
+          Continue as Guest
+        </Button>
+        <FormText color="muted">
+          * DO NOT USE REAL CREDENTIALS. THIS IS A PERSONAL PRACTICE PROJECT,
+          LOG IN AS GUEST OR USE THE DUMMY ACCOUNT -> (abc@gmail.com / 123)
+        </FormText>
       </Form>
     </Container>
   );

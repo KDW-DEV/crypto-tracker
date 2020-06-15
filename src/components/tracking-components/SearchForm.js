@@ -14,9 +14,10 @@ const SearchForm = ({ submit }) => {
         placeholder="Search symbol (BTC)"
         name="searchCoins"
         ref={register}
+        style={{ width: "100%" }}
       />
 
-      <input type="submit" />
+      <input type="submit" style={{ width: "100%" }} />
     </form>
   );
 };
