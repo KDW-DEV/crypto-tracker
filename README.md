@@ -8,7 +8,7 @@
 
 > Web application for tracking different crypto currencies and providing price over time data, socials, and rankings for your favorite cryptos.
 
-### ✨ [Demo](crypto-tracker-dev.herokuapp.com)
+### ✨ [Demo](https://crypto-tracker-dev.herokuapp.com)
 
 ## Install
 
@@ -32,10 +32,10 @@ npm run test
 
 👤 **Tristan Cruz **
 
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
